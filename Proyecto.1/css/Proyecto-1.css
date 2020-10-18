@@ -1,0 +1,144 @@
+/*A ver qué tal me sale este beta*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+
+    box-sizing: inherit;
+}
+
+body{
+
+    Color: black;
+    background-color: rgb(233, 236, 240);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+/*------------------------------------Loguito--------------------------------*/
+
+.Logo1{
+    float: left;
+}
+
+/*----------------------------------------Título(Encabezado)------------------------------------*/
+
+header{
+
+}
+
+header h1{
+
+}
+
+header h4{
+
+}
+
+/*-----------------------------------Pasos--------------------------------------*/
+
+.Pasos{
+
+    list-style-type: none;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    column-gap: 100px;
+    justify-content: center;
+
+}
+
+.Pasos h3, p{
+
+    
+    display: inline-flex;
+    background-color: rgb(150, 150, 150);
+    padding: 65px;
+    border-radius: 15px;
+   
+     
+
+}
+
+ /* Aquí luego ponemos el hover más el JS pero ahora es poco importante*/
+
+/*--------------------------------------------------WhatsApp------------------------------*/
+
+.Was{
+    border-color: blue;
+    border-width: thick;
+}
+
+.Was h2{
+    padding: 5 5 5 0;
+    border-bottom: 5px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.Was a{
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px;
+    padding: 10px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3 ease;
+    border: 2px solid;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+.icon i{
+    display: flexbox;
+    justify-content: center;
+
+}
+
+.icon i{
+    font-size: 100px;
+    background-color: grey;
+}
+
+
+/*----------------------------------------------Marcas-----------------------------*/
+
+.Marcas {
+
+}
+
+.Marcas h2{
+
+}
+
+/*----------------------------------------------Mapa------------------------------------------*/
+
+
+
+
+/*---------------------------------------------Pie de página--------------------------------*/
+footer{
+
+
+}
+
+.Copyright{
+
+}
+
+
+.Icons{
+
+}
+
+.and-stuff{
+
+}
