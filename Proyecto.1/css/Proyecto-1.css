@@ -47,7 +47,23 @@ header h4{
     grid-template-columns: 2fr 2fr 2fr;
     column-gap: 100px;
     justify-content: center;
+    display: inline-flex;
+    
 
+}
+
+.Pasos h3{
+
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+
+.Pasos p{
+    border-radius: 8px;
+    margin-bottom: 35px;
 }
 
 .Pasos h3, p{
@@ -55,11 +71,9 @@ header h4{
     
     display: inline-flex;
     background-color: rgb(150, 150, 150);
-    padding: 65px;
-    border-radius: 15px;
-   
-     
-
+    padding: 55px 45px;
+    border: none;
+    margin: auto;
 }
 
  /* Aquí luego ponemos el hover más el JS pero ahora es poco importante*/
@@ -67,56 +81,72 @@ header h4{
 /*--------------------------------------------------WhatsApp------------------------------*/
 
 .Was{
-    border-color: blue;
-    border-width: thick;
+    border-style: solid;
+    display: inline-block;
+    border-width: 4px;
+    padding: 12px 15px 19px 15px;
+    border-radius: 10px;
 }
 
 .Was h2{
-    padding: 5 5 5 0;
+    padding: 2px 7px 2px 7px;
     border-bottom: 5px;
     background-color: green;
     display: inline-block;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .Was a{
+
     display: flex;
-    justify-content: center;
-    border-bottom: 5px;
-    padding: 10px 40px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 20px;
     display: inline-block;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration: none;
     transition: all .3 ease;
-    border: 2px solid;
+    font-weight: bold;
+    color: #ffffff;
     background-color: grey;
+    padding: 8px 40px;
+    margin: 20px 10px 10px 10px;
+    border: 2px solid;
+    border-bottom: none;
     border-radius: 10px;
 
 }
 
 .icon i{
-    display: flexbox;
+    
     justify-content: center;
-
-}
-
-.icon i{
     font-size: 100px;
-    background-color: grey;
+    padding: 50px 30px 25px 30px;
+    
+    
+
 }
+
 
 
 /*----------------------------------------------Marcas-----------------------------*/
 
 .Marcas {
-
+    display: inline-flex;
+    border-style: solid;
+    border-width: 0;
+   
 }
 
 .Marcas h2{
 
+    padding: 80px;
+    border-style: solid;
+    margin: 0;
+    margin-top: 80px;
+}
+
+.Marcas >  h2+h2{
+
+    border-left: none;
 }
 
 /*----------------------------------------------Mapa------------------------------------------*/
@@ -127,8 +157,11 @@ header h4{
 /*---------------------------------------------Pie de página--------------------------------*/
 footer{
 
-
-}
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}   
 
 .Copyright{
 

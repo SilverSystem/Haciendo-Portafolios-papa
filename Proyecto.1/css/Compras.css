@@ -1,0 +1,80 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+
+    Color: black;
+    background-color: rgb(67, 108, 161);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.loguito-2{
+
+    float: left;
+}
+/*--------------------------------------------------Centro-------------------------*/
+
+.Centro{
+    display: inline-flex;
+    list-style-type: none;
+    
+    
+}
+
+.No-se{
+    border-style: solid;
+    display: inline-block;
+    border-width: 4px;
+    padding: 24px 30px 38px 30px;
+    border-radius: 10px;
+}
+
+.Slider{
+padding-left: 60px;
+padding-top: 25px;
+}
+/*-------------------------------Categorías--------------------------------*/
+
+.Categorías{
+    border-style: ridge;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    
+}
+
+/*-----------------------------------------------------Productos-------------------------*/
+
+.Productos{
+
+    list-style-type: none;
+    display: flex;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 4fr 4fr 4fr 4fr;
+    margin: 0px;
+    padding: 0px ;
+  
+    
+}
+
+.Productos h4{
+    border-style: solid;
+    margin: 0px;
+    border-width: 2px;
+    padding: 200px 0px;
+    margin: 0;
+}
+
+.Top{
+    border-top: 0px;
+}
