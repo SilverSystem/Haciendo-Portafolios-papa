@@ -10,13 +10,18 @@ html{
 body{
 
     Color: black;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     background-color: rgb(233, 236, 240);
     margin: 0;
     padding: 0;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
+
+
+
 /*------------------------------------Loguito--------------------------------*/
 
 .Logo1{
@@ -30,12 +35,9 @@ header{
 }
 
 header h1{
-
+    text-transform: uppercase;
 }
 
-header h4{
-
-}
 
 /*-----------------------------------Pasos--------------------------------------*/
 
@@ -70,7 +72,7 @@ header h4{
 
     
     display: inline-flex;
-    background-color: rgb(150, 150, 150);
+    background-color: none;
     padding: 55px 45px;
     border: none;
     margin: auto;
@@ -81,42 +83,38 @@ header h4{
 /*--------------------------------------------------WhatsApp------------------------------*/
 
 .Was{
-    border-style: solid;
     display: inline-block;
-    border-width: 4px;
-    padding: 12px 15px 19px 15px;
+    border-width: 1.2px;
+    padding: 15px 30px 15px 30px;
     border-radius: 10px;
+    background-image: url(/Proyecto.1/imágenes/2b45cfec4c0d3c56aed4ccd30b61bd3a.jpg);
 }
 
 .Was h2{
     padding: 2px 7px 2px 7px;
     border-bottom: 5px;
-    background-color: green;
     display: inline-block;
     border-radius: 10px;
 }
 
 .Was a{
-
     display: flex;
-    display: inline-block;
     justify-content: center;
     text-transform: uppercase;
     text-decoration: none;
-    transition: all .3 ease;
     font-weight: bold;
-    color: #ffffff;
-    background-color: grey;
-    padding: 8px 40px;
+    color: black;
+    background-color: none;
+    padding: 15px 40px;
     margin: 20px 10px 10px 10px;
-    border: 2px solid;
-    border-bottom: none;
+    
+    border-bottom: 5px;
     border-radius: 10px;
 
 }
 
 .icon i{
-    
+    color: green;
     justify-content: center;
     font-size: 100px;
     padding: 50px 30px 25px 30px;
@@ -131,22 +129,30 @@ header h4{
 
 .Marcas {
     display: inline-flex;
-    border-style: solid;
-    border-width: 0;
-   
 }
 
 .Marcas h2{
-
-    padding: 80px;
+    text-align: center;
+    padding: 25px 50px  25px 50px;
     border-style: solid;
-    margin: 0;
-    margin-top: 80px;
+    border-width: 0.5px;
+    border-radius: 50px;
+    background-color: white;
 }
 
-.Marcas >  h2+h2{
+.Alimentos {
+    display: flex;
+    margin: 25px 200px 25px 15px;
+}
 
-    border-left: none;
+.Ofertas { 
+    display: flex;
+    margin: 25px 15px 25px 200px;
+}
+
+.Frutas {
+    display: flex;
+    margin: 25px 50px 25px 20px;
 }
 
 /*----------------------------------------------Mapa------------------------------------------*/
@@ -155,18 +161,17 @@ header h4{
 
 
 /*---------------------------------------------Pie de página--------------------------------*/
-footer{
-
+footer {
+    background-color: gray;
     border-style: solid;
     border-top: none;
     border-left: none;
     border-right: none;
 }   
 
-.Copyright{
-
+.Copyright p{
+    
 }
-
 
 .Icons{
 
